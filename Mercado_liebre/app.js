@@ -10,5 +10,5 @@ app.listen(5000, () => {
 });
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "./home.html"))
+    res.sendFile(path.resolve(__dirname, "./views/home.html"))
 })
