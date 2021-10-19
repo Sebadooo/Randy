@@ -5,44 +5,54 @@
     <meta charset="utf8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcado Liebre!</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
     <header>
-        <img src="/images/LogoMercadoL.jpg" alt="Logo">
-
-        <nav>acá va la barra de busqueda</nav>
+        <div class="logo"><img src="/images/logo-mercado-liebre.svg" alt="Logo"></div>
+        <div class="buscar">
+            <form action="/registro" method="POST"></form>
+            <input type="text" name="buscar"></div>
 
         <nav>
             <h2>Comprá en cuotas y sin tarjeta de crédito</h2>
         </nav>
 
-        <ul>
-            <li>
-                <a href="#">Ofertas</a>
-            </li>
-            <li>
-                <a href="#">Tiendas oficiales</a>
-            </li>
-            <li>
-                <a href="#">Vender</a>
-            </li>
-            <li>
-                <a href="#">Ayuda</a>
-            </li>
-        </ul>
+        <section class="menu1">
+            <ul>
+                <li>
+                    <a href="#">Ofertas</a>
+                </li>
+                <li>
+                    <a href="#">Tiendas oficiales</a>
+                </li>
+                <li>
+                    <a href="#">Vender</a>
+                </li>
+                <li>
+                    <a href="#">Ayuda</a>
+                </li>
+            </ul>
+        </section>
 
-        <ul>
-            <li>
-                <a href="#">Creá tu cuenta</a>
-            </li>
-            <li>
-                <a href="#">Ingresá</a>
-            </li>
-            <li>
-                <a href="#">Mis compras</a>
-            </li>
-        </ul>
+        <section class="menu2">
+            <ul>
+                <li>
+                    <a href="#">Creá tu cuenta</a>
+                </li>
+                <li>
+                    <a href="#">Ingresá</a>
+                </li>
+                <li>
+                    <a href="#">Mis compras</a>
+                </li>
+            </ul>
+        </section>
+
         <img src="/images/img-home-banner.jpg" alt="Banner">
     </header>
     <main>
@@ -53,25 +63,25 @@
 
             <article>
                 <img src="/images/cafetera.jpg" alt="cafetera">
-                <p>
+                <p class="desc productos">
                     $6.770 <br> 40% off <br> Cafetera Moulinex
                 </p>
             </article>
             <article>
                 <img src="/images/macbook.jpg" alt="Macbook">
-                <p>
+                <p class="desc productos">
                     $230.000 <br> 20% off <br> MacBook Pro 2019
                 </p>
             </article>
             <article>
                 <img src="/images/celu.jpg" alt="celu">
-                <p>
+                <p class="desc productos">
                     $70.500 <br> 10% off <br> Samsung Galaxy S10
                 </p>
             </article>
             <article>
                 <img src="/images/tv.jpg" alt="tv">
-                <p>
+                <p class="desc productos">
                     $23.200 <br> 5% off <br> SmartTv Samsung 43"
                 </p>
             </article>

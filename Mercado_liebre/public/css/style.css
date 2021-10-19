@@ -1,0 +1,48 @@
+bod {}
+
+.logo {
+    display: flex;
+    width: 100vw;
+    background-color: #ea8526;
+}
+
+.buscar {
+    display: ;
+    padding: 2%;
+    font-weight: bold;
+    background-color: ( #3251de;
+}
+
+section.menu1 {
+    border: dotted;
+    display: flex;
+    width: 50vw text-align: left;
+    font-weight: 300;
+    text-decoration: overline red;
+    margin-right: 20px;
+    background-color: green;
+}
+
+li {
+    display: flex;
+    flex: align;
+}
+
+.menu2 {
+    display: flex;
+    flex: align;
+    width: 50vw;
+    font-weight: 300;
+    text-decoration: overline red;
+    margin-right: 20px;
+    background-color: blue;
+}
+
+.desc {
+    text-align: justify;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+}
