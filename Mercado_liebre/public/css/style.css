@@ -1,41 +1,65 @@
-bod {}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: #EAC926;
+    font-family: Roboto;
+}
 
 .logo {
-    display: flex;
-    width: 100vw;
-    background-color: #ea8526;
+    width: 50vw;
+    padding: 25px;
 }
 
 .buscar {
-    display: ;
-    padding: 2%;
-    font-weight: bold;
-    background-color: ( #3251de;
+    size: 20vw;
+    padding: 0 0 10px 15px;
 }
 
-section.menu1 {
-    border: dotted;
-    display: flex;
-    width: 50vw text-align: left;
-    font-weight: 300;
-    text-decoration: overline red;
-    margin-right: 20px;
-    background-color: green;
+.fas fa-search {}
+
+.subtitulo {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px
 }
 
-li {
+.burger {
     display: flex;
-    flex: align;
+    justify-content: center;
+    padding: 20px;
+}
+
+#burg {
+    background-color: #1259c3;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.barra {
+    align-items: left;
+    padding: 0;
+    font-family: Roboto;
+    background-color: #EAC926;
+}
+
+.menu1 {
+    padding: 10px 0 10px 0;
+    font-size: 0.8rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
 }
 
 .menu2 {
-    display: flex;
-    flex: align;
-    width: 50vw;
-    font-weight: 300;
-    text-decoration: overline red;
-    margin-right: 20px;
-    background-color: blue;
+    padding: 10px 0 10px 0;
+    font-size: 0.8rem;
+    text-align: left;
+    text-decoration: none;
+    colors: black;
 }
 
 .desc {
@@ -45,4 +69,38 @@ li {
 
 h3 {
     font-size: 24px;
+}
+
+.banner {
+    size-adjust: 80vw;
+    justify-content: flex-start;
+}
+
+.articulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid 2px red;
+}
+
+.1 {
+    size: 20vw_;
+}
+
+pies .footer {
+    align-content: center;
+}
+
+#footer {
+    align-items: center;
+    color: #1259c3;
+}
+
+h4 {
+    font-size: 18px;
+    align-items: center;
+}
+
+p .footer {
+    font-size: 12px;
 }
